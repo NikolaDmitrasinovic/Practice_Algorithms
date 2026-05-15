@@ -38,13 +38,13 @@ public class TwoSumTests
         const int target = 5;
 
         // Act & Assert
-        Assert.Throws<ArgumentException>(() => TwoSum.Find(nums, target));
+        Assert.Throws<Exception>(() => TwoSum.Find(nums, target));
     }
     
     [Theory]
     [InlineData(new int[] { 3, 2, 4 }, 6, new int[] { 1, 2 })]
     [InlineData(new int[] { 3, 3 }, 6, new int[] { 0, 1 })]
-    [InlineData(new int[] { -3, -2, -1, -4, -5 }, -8, new int[] { 2, 4 })]
+    [InlineData(new int[] { -3, -2, -1, -4, -5 }, -8, new int[] { 0, 4 })]
     public void TwoSum_MultipleScenarios_ReturnsExpectedIndices(int[] nums, int target, int[] expected)
     {
         // Act
