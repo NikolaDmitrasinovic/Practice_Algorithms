@@ -1,8 +1,6 @@
-using SomeAlgorithms.BasicAlgorithms;
+namespace BasicAlgorithms.Tests;
 
-namespace SomeAlgorithms.Tests.BasicAlgorithms;
-
-public class TwoSumIITests
+public class PalindromeTests
 {
     public class ValidPalindromeTests
     {

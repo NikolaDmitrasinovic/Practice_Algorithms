@@ -1,6 +1,4 @@
-using SomeAlgorithms.BasicAlgorithms;
-
-namespace Algorithms.Tests;
+namespace BasicAlgorithms.Tests;
 
 public class ContainerWithMostWaterTests
 {

@@ -1,4 +1,8 @@
 <Solution>
-  <Project Path="SomeAlgorithms.Tests/SomeAlgorithms.Tests.csproj" />
-  <Project Path="SomeAlgorithms/SomeAlgorithms.csproj" />
+  <Folder Name="/Algorithms/">
+    <Project Path="Algorithms/BasicAlgorithms/BasicAlgorithms.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/BasicAlgorithms.Tests/BasicAlgorithms.Tests.csproj" />
+  </Folder>
 </Solution>

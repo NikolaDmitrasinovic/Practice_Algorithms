@@ -1,6 +1,4 @@
-using SomeAlgorithms.BasicAlgorithms;
-
-namespace SomeAlgorithms.Tests.BasicAlgorithms;
+namespace BasicAlgorithms.Tests;
 
 public class TwoSumTests
 {

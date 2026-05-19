@@ -1,4 +1,4 @@
-namespace SomeAlgorithms.BasicAlgorithms;
+namespace BasicAlgorithms;
 
 public static class ContainerWithMostWater
 {
