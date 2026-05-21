@@ -2,6 +2,9 @@
   <Folder Name="/Algorithms/">
     <Project Path="Algorithms/BasicAlgorithms/BasicAlgorithms.csproj" />
   </Folder>
+  <Folder Name="/Practice/">
+    <Project Path="Practice/PracticeALot/PracticeALot.csproj" />
+  </Folder>
   <Folder Name="/Tests/">
     <Project Path="Tests/BasicAlgorithms.Tests/BasicAlgorithms.Tests.csproj" />
   </Folder>
