@@ -4,6 +4,7 @@
   </Folder>
   <Folder Name="/Practice/">
     <Project Path="Practice/PracticeALot/PracticeALot.csproj" />
+    <Project Path="Practice/PracticeLibrary/PracticeLibrary.csproj" Id="541b1246-d188-4fe6-a10a-cc281db9e33a" />
   </Folder>
   <Folder Name="/Tests/">
     <Project Path="Tests/BasicAlgorithms.Tests/BasicAlgorithms.Tests.csproj" />
