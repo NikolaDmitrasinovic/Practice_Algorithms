@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PracticeLibrary;
+﻿namespace PracticeLibrary.WeekI;
 
 internal class Class3
 {

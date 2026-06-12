@@ -1,4 +1,4 @@
-namespace PracticeLibrary;
+namespace PracticeLibrary.WeekI;
 
 public class Bridge4DayRecap
 {

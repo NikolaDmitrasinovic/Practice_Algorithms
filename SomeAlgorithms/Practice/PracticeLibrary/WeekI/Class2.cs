@@ -1,4 +1,4 @@
-﻿namespace PracticeLibrary;
+﻿namespace PracticeLibrary.WeekI;
 
 internal class Class2
 {
