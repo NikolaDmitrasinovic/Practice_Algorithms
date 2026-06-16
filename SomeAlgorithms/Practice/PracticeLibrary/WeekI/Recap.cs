@@ -136,4 +136,28 @@ public static class Recap
         
         return solutions;
     }
+
+    public static int LongestSubstring(string input)
+    {
+        var maxLength = 0;
+        var substring = new HashSet<char>();
+
+        var left = 0;
+
+        for (var right = 0; right < input.Length; right++)
+        {
+            while (substring.Contains(input[right]))
+            {
+                substring.Remove(input[left]);
+                left++;
+            }
+            
+            substring.Add(input[right]);
+
+            var currentLength = right - left + 1;
+            maxLength = Math.Max(maxLength, currentLength);
+        }
+        
+        return maxLength;
+    }
 }
